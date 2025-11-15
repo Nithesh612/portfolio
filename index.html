@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta-name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nithesh Kumar – Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">Portfolio</div>
+
+            <nav class="nav">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+
+                <div class="hero-avatar">
+                    <div class="avatar-circle">
+                        <div class="avatar-content">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-greeting">
+                    Hi! I'm <span class="greeting-highlight">NITHESH KUMAR R</span>
+                </div>
+
+                <h1 class="hero-title">Frontend Web Developer based in Chennai.</h1>
+
+                <p class="hero-description">
+                    I am a passionate web developer skilled in building modern, responsive websites and 
+                    user-friendly front-end interfaces. I love turning ideas into clean, functional designs.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        Contact Me <i class="fas fa-arrow-right"></i>
+                    </a>
+    <button id="downloadResume" class="btn btn-secondary"> Download Resume <i class="fas fa-download"></i>
+    </button>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+        <div class="container">
+
+            <h2 class="section-title about-title">About Me</h2>
+
+            <div class="about-content">
+                <div class="about-left">
+
+                    <div class="about-text">
+                        <p>
+                            I'm a dedicated Web Developer with strong knowledge in HTML, CSS, JavaScript,
+                            responsive design, and modern UI development.
+                        </p>
+                        <p>
+                            I enjoy building fast, clean, and mobile-friendly websites. I focus on writing neat 
+                            code and creating smooth user experiences.
+                        </p>
+                    </div>
+
+                    <div class="skills-technologies">
+                        <h3 class="skills-heading">Skills & Technologies</h3>
+                        <div class="tech-tags">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Git</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="projects">
+        <div class="container">
+
+            <h2 class="section-title projects-title">My Projects</h2>
+
+            <div class="projects-grid-new">
+
+                <!-- PROJECT 01 -->
+                <div class="project-card-new">
+                    <div class="project-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3 class="project-title-new">Thunder Gear – Gaming E-Commerce</h3>
+                    <p class="project-description-new">
+                        Responsive gaming accessories website with product categories, search, and 
+                        interactive animation enhancements.
+                    </p>
+                    <div class="project-tech-tags">
+                        <span class="project-tech-tag">HTML</span>
+                        <span class="project-tech-tag">CSS</span>
+                        <span class="project-tech-tag">JavaScript</span>
+                    </div>
+                </div>
+
+                <!-- PROJECT 02 -->
+                <div class="project-card-new">
+                    <div class="project-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 class="project-title-new">AI Landslide Prediction Model</h3>
+                    <p class="project-description-new">
+                        Machine learning model built using environmental data to predict landslide 
+                        risk and improve early warning systems.
+                    </p>
+                    <div class="project-tech-tags">
+                        <span class="project-tech-tag">Python</span>
+                        <span class="project-tech-tag">ML</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <div class="container">
+
+            <h2 class="section-title contact-title">Get In Touch</h2>
+
+            <p class="contact-subtitle">
+                Have a project or want to collaborate? Let's connect!
+            </p>
+
+            <div class="contact-wrapper">
+
+                <div class="contact-form-container">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-submit">Send Message</button>
+                    </form>
+                </div>
+
+                <div class="connect-section">
+                    <h3 class="connect-heading">Connect With Me</h3>
+
+                    <div class="connect-links">
+                        <a href="#" class="connect-link"><i class="fab fa-github"></i><span>GitHub</span></a>
+                        <a href="#" class="connect-link"><i class="fab fa-linkedin"></i><span>LinkedIn</span></a>
+                        <a href="mailto:nithesh1206@gmail.com" class="connect-link">
+                            <i class="fas fa-envelope"></i><span>Email</span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+</body>
+</html>
